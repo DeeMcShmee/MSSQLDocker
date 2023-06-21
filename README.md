@@ -5,7 +5,7 @@ Here's a breakdown of how I got mssql working in a docker container in wsl on wi
 
 First, install Win Server 2022
 
-After run this command in powershell to install hyper-V and to update the system:
-  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
-  Get-WindowsUpdate -AcceptAll -Install -AutoReboot
+After run this script in powershell to install update the system and install hyper-v:
+#Install.ps1
 
+Once done, we need to install the distro wanted ( I used Ubuntu by default)
