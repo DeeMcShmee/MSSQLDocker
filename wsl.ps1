@@ -5,7 +5,7 @@ wsl --install -d Ubuntu
 wsl --set-default-version 2
 
 # The need to restart/shutdown wsl service
-wsl.exe --shutdown
+#wsl.exe --shutdown
 
 # Need to reboot to Ubuntu to install completly
 restart-computer
