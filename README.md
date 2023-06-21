@@ -11,5 +11,10 @@ After run this script in powershell to install update the system and install hyp
 When done, we need to install the distro wanted (I used Ubuntu by default)
 #wsl.ps1
 
+Once Ubuntu has loaded, we need to make sure that systemd is loaded at boot
+So whe need to create a file called wsl.conf in /etc with this inside
+[Boot]
+systemd=true
+
 Need to update && upgrade Ubuntu and add Docker to the mix
 #thelinuxside
