@@ -1,3 +1,6 @@
+#Install PSWindowsUpdate
+Install-module PSWindowsUpdate -force
+
 # Good old windows update
 Get-WindowsUpdate -AcceptAll -Install -AutoReboot
 
