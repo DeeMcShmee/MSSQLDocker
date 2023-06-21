@@ -12,8 +12,8 @@ When done, we need to install the distro wanted (I used Ubuntu by default)
 #wsl.ps1
 
 Once Ubuntu has loaded, we need to make sure that systemd is loaded at boot
-So whe need to create a file called wsl.conf in /etc with this inside
-[Boot]
+So whe need to create a file called #wsl.conf in /etc with this inside  
+[Boot]  
 systemd=true
 
 Need to update && upgrade Ubuntu and add Docker to the mix
@@ -30,5 +30,6 @@ user = sa
 
 pw=the password you used in the docker setup  
 
-![image](https://github.com/DeeMcShmee/MSSQLDocker/assets/95409489/9780623e-e63d-4596-9360-9f06a0ff4f13)
+![image](https://github.com/DeeMcShmee/MSSQLDocker/assets/95409489/fc6252ab-4896-4b98-891d-238db24b66c1)
+
 
