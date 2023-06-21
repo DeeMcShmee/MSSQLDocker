@@ -9,3 +9,5 @@ After run this script in powershell to install update the system and install hyp
 #Install.ps1
 
 Once done, we need to install the distro wanted ( I used Ubuntu by default)
+#wsl.ps1
+
