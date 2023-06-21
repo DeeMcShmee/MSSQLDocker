@@ -22,7 +22,7 @@ Need to update && upgrade Ubuntu and add Docker to the mix
 In the meantime, you can download ssms from the microsoft website if you want to manage the database with it( It's free )
 https://aka.ms/ssmsfullsetup
 
-When it's all said and done, here's what worked for me to log in ssms
+#When it's all said and done, here's what worked for me to log in ssms
 127.0.0.1\{Container Name},port used aka 1433
 user = sa
 pw=the password you used in the docker setup
